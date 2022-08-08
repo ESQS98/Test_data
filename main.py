@@ -4,7 +4,7 @@ import models
 from dataclasses import asdict
 
 FILE_NAME = 'example2.json'
-CLEAN_FILE = 'flatten.json'
+CLEAN_FILE = 'example.json'
 
 
 def loadEntitysFromFile(file: str) -> List[Dict]:
